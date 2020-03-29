@@ -1,0 +1,33 @@
+[preferences/editor]
+highlight-current-line=true
+display-right-margin=true
+bracket-matching=true
+scheme='classic'
+tabs-size=uint32 4
+display-line-numbers=true
+insert-spaces=true
+right-margin-position=uint32 120
+wrap-last-split-mode='word'
+auto-indent=true
+
+[preferences/ui]
+bottom-panel-visible=true
+show-tabs-mode='auto'
+side-panel-visible=true
+
+[plugins/filebrowser]
+virtual-root='file:///root'
+tree-view=true
+filter-mode=@as []
+root='file:///'
+
+[plugins]
+active-plugins=['docinfo', 'terminal', 'pythonconsole', 'filebrowser', 'spell', 'git', 'dashboard']
+
+[state/window]
+size=(900, 1057)
+state=132
+bottom-panel-active-page='GeditTerminalPanel'
+bottom-panel-size=260
+side-panel-active-page='GeditFileBrowserPanel'
+side-panel-size=306

@@ -1,0 +1,88 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=qemu-system-x86_64) (class=qemu-system-x86_64)
+  [Workspace]	{3}
+  [Head]	{2}
+  [Dimensions]	{39% 45%}
+  [Position]	(UPPERLEFT)	{48% 14%}
+  [Close]	{yes}
+[end]
+[app] (name=xtightvncviewer) (class=Vncviewer)
+  [Workspace]	{3}
+  [Head]	{3}
+  [Close]	{yes}
+[end]
+[app] (name=mumble) (class=Mumble)
+  [Workspace]	{3}
+  [Head]	{2}
+  [Dimensions]	{100% 102%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Close]	{yes}
+[end]
+[transient] (name=mumble) (class=Mumble)
+  [Workspace]	{3}
+  [Head]	{1}
+  [Dimensions]	{32% 28%}
+  [Position]	(UPPERLEFT)	{21% 59%}
+  [Close]	{yes}
+[end]
+[app] (name=pavucontrol) (class=Pavucontrol)
+  [Workspace]	{3}
+  [Head]	{1}
+  [Dimensions]	{41% 96%}
+  [Position]	(UPPERLEFT)	{59% 0%}
+  [Close]	{yes}
+[end]
+[app] (name=xterm) (class=XTerm) (title=taillog)
+  [Workspace]	{2}
+  [Head]	{2}
+  [Dimensions]	{81% 36%}
+  [Position]	(UPPERLEFT)	{8% 59%}
+  [Sticky]	{no}
+  [Close]	{yes}
+[end]
+[app] (name=xterm) (class=XTerm) (title=histats)
+  [Workspace]	{2}
+  [Head]	{2}
+  [Dimensions]	{42% 29%}
+  [Position]	(UPPERLEFT)	{8% 0%}
+  [Sticky]	{no}
+  [Layer]	{8}
+  [Close]	{yes}
+[end]
+[app] (name=xterm) (class=XTerm) (title=topcmd)
+  [Workspace]	{2}
+  [Head]	{2}
+  [Dimensions]	{81% 30%}
+  [Position]	(UPPERLEFT)	{8% 29%}
+  [Sticky]	{no}
+  [Close]	{yes}
+[end]
+[app] (name=xterm) (class=XTerm) (title=nload)
+  [Workspace]	{2}
+  [Head]	{2}
+  [Dimensions]	{39% 29%}
+  [Position]	(UPPERLEFT)	{50% 0%}
+  [Sticky]	{no}
+  [Close]	{yes}
+[end]
+[app] (name=Mail) (class=Icedove)
+  [Workspace]	{1}
+  [Head]	{1}
+  [Dimensions]	{52% 89%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Sticky]	{no}
+  [Maximized]	{yes}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=synergy) (class=Synergy)
+  [Workspace]	{3}
+  [Head]	{1}
+  [Dimensions]	{36% 53%}
+  [Position]	(UPPERLEFT)	{23% 0%}
+  [Sticky]	{no}
+  [Close]	{yes}
+[end]
