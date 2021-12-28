@@ -11,5 +11,5 @@ A set of scripts to install default workspaces
 		-q         : installer verbosity
 		-h         : help message
 	
-	Example: ./setup.sh -f=dotfiles,snippets -c=essentials -p=workstation -u=malloc -v -q
+	Example: ./setup.sh -f=dotfiles,snippets -c=essentials -t=terminal -p=workstation -u=foouser -v
 	
