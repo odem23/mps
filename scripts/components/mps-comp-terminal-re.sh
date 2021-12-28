@@ -3,7 +3,7 @@
 
 INSTALLER_CMD_PIP="sudo pip install"
 INSTALLER_CMD="sudo apt install"
-INSTALLER_OPT="--force-yes --yes"
+INSTALLER_OPT="--yes"
 
 # install folder
 REPODIR=$2/$3

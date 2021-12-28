@@ -2,7 +2,7 @@
 
 
 INSTALLER_CMD="sudo apt install"
-INSTALLER_OPT="--force-yes --yes"
+INSTALLER_OPT="--yes"
 
 # Basics
 PACKAGES="$PACKAGES vim git bzip2 zip unzip"

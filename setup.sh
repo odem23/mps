@@ -289,9 +289,9 @@ generate_packs CMD_FILES[@]
 
 # Print info
 print_cmd_args
-#print_installers TARGET_INSTALLERS[@]
-#print_configurators TARGET_CONFIGURATORS[@]
-#print_packs TARGET_PACKS[@]
+print_installers TARGET_INSTALLERS[@]
+print_configurators TARGET_CONFIGURATORS[@]
+print_packs TARGET_PACKS[@]
 
 # Start action
 invoke_installers TARGET_INSTALLERS[@]
